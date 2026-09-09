@@ -9,7 +9,3 @@ function validarFormulario() {
     alert("Completa todos los campos");
     }
 }
-
-function calcularPrecio() {
-
-}
