@@ -1,148 +1,117 @@
-
-/* Elimina los márgenes y espacios predeterminados de todos los elementos */
+/* Quita los márgenes y espacios predeterminados */
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-/* Estilos generales de toda la página */
+
+/* Configuración general de la página */
 body {
-  /* Color de fondo oscuro */
-  background-color: #121418;
-
-  /* Color del texto */
-  color: #e1e3e6;
-
-  /* Tipo de letra */
-  font-family: Arial, sans-serif;
-  font-size: 16px;
-  line-height: 1.6;
+    background-color: #121418;
+    color: #e1e3e6;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
 }
 
-/* Estilo del título principal */
+
+/* Parte superior de la página */
+header {
+    background-color: #1a1d24;
+    text-align: center;
+    padding-top: 2em;
+}
+
+
+/* Título TimeLife */
 h1 {
-
-  background-color: #1a1d24;
-  color: #ffffff;
-  text-align: center;
-
-  padding: 1em 0 0.5em 0;
+    color: #ffffff;
+    font-size: 2.2em;
+    margin-bottom: 1em;
 }
 
-/* Estilo de la barra de navegación */
+
+/* Menú de enlaces */
 nav {
-  background-color: #1a1d24;
-  text-align: center;
-
-  /* Línea que separa la navegación del contenido */
-  border-bottom: 1px solid #2d323e;
-
-  padding-bottom: 0.5em;
+    background-color: #1a1d24;
+    text-align: center;
+    padding-bottom: 0.8em;
 }
 
-/* Estilo de los enlaces dentro del menú */
+
+/* Enlaces Inicio, Reglas y Reservar */
 nav a {
-
-  color: #a0a6b2;
-  display: inline-block;
-  padding: 0.8em 1.2em;
-  text-decoration: none;
-
-  /* Hace que el texto aparezca en negrita */
-  font-weight: bold;
+    color: #a0a6b2;
+    display: inline-block;
+    padding: 0.7em 1.2em;
+    text-decoration: none;
+    font-weight: bold;
 }
 
-/* Estilo de los enlaces cuando se pasa el mouse encima */
+
+/* Efecto cuando se pasa el mouse */
 nav a:hover {
-  /* Cambia el texto a blanco */
-  color: #f3b7b7;
-
-  /* Cambia el fondo del enlace */
-  background-color: #252a34;
+    color: #ffffff;
+    background-color: #252a34;
 }
 
-/* Estilo de la sección principal */
+
+/* Contenedor de las reglas */
 section {
-  /* La sección ocupa el 80% del ancho */
-  width: 80%;
-
-  /* Centra la sección horizontalmente */
-  margin: 1.5em auto;
-
-  /* Espacio interno de la sección */
-  padding: 2em;
-  background-color: #1a1d24;
-  border: 1px solid #2d323e;
+    width: 80%;
+    margin: 2em auto;
+    padding: 2em;
+    background-color: #1a1d24;
+    border: 1px solid #2d323e;
 }
 
-/* Estilo del título h2 dentro de la sección */
+
+/* Título "Reglas para viajar en el tiempo" */
 section h2 {
-  color: #688ddf;
-
-  /* Línea debajo del título */
-  border-bottom: 1px solid #2d323e;
-  /* Espacio debajo de la línea */
-  padding-bottom: 0.4em;
-  /* Espacio entre el título y el contenido */
-  margin-bottom: 1em;
-  text-align: center;
+    color: #ffffff;
+    text-align: center;
+    border-bottom: 1px solid #2d323e;
+    padding-bottom: 0.5em;
+    margin-bottom: 1.5em;
 }
 
-/* Estilo de los títulos h3 */
+
+/* Títulos de las diferentes reglas */
 section h3 {
-  /* Color blanco */
-  color: #ffffff;
-
-  /* Espacio superior */
-  margin-top: 1em;
-
-  /* Espacio inferior */
-  margin-bottom: 0.5em;
+    color: #ffffff;
+    margin-top: 1.5em;
+    margin-bottom: 0.8em;
 }
 
-/* Estilo de los títulos h4 */
-section h4 {
 
-  color: #7e9fec;
-
-  /* Espacio superior */
-  margin-top: 1.5em;
-
-  /* Espacio inferior */
-  margin-bottom: 0.5em;
-}
-
-/* Estilo de los párrafos dentro de la sección */
+/* Texto de las reglas */
 section p {
-  /* Espacio debajo de cada párrafo */
-  margin-bottom: 1em;
+    color: #e1e3e6;
+    line-height: 1.6;
+    margin-bottom: 1em;
 }
 
-/* Estilo de las listas dentro de la sección */
+
+/* Lista de reglas */
 section ul {
-  margin: 0.5em 0 1.5em 2em;
+    margin-left: 2em;
+    margin-bottom: 1.5em;
 }
 
-/* Estilo de cada elemento de la lista */
+
+/* Elementos de la lista */
 section li {
-  /* Espacio debajo de cada regla */
-  margin-bottom: 0.5em;
-  color: #d5d8dd;
+    margin-bottom: 0.7em;
+    line-height: 1.5;
 }
 
-/* Estilo del pie de página */
+
+/* Pie de página */
 footer {
-  /* Fondo oscuro */
-  background-color: #1a1d24;
-
-  /* Color del texto */
-  color: #8f95a3;
-  text-align: center;
-  padding: 1.2em 0;
+    background-color: #1a1d24;
+    color: #6c7280;
+    text-align: center;
+    padding: 1.2em 0;
     margin-top: 2em;
-  border-top: 1px solid #2d323e;
+    border-top: 1px solid #2d323e;
 }
-
-
-
