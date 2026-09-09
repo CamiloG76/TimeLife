@@ -4,8 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TL Reservas</title>
+    <link rel="stylesheet" href="../../estilos/estiloreservas.css">
+    <script src="../../JavaScript/script.js"></script>
 </head>
+
 <body>
-    
+
+    <h1>TimeLife</h1>
+
+    <nav>
+        <a href="../index.html">Inicio</a>
+        <a href="../paquetes/paquetes.html">Paquetes</a>
+        <a href="../reglas/reglas.html">Reglas</a>
+    </nav>
+
+    <section>
+
+        <h2>Reserva tu viaje</h2>
+
+        <form>
+
+            <p>Nombre:</p>
+            <input type="text" id="nombre">
+
+            <p>Correo:</p>
+            <input type="text" id="correo">
+
+            <p>Destino:</p>
+            <input type="text" id="destino">
+
+            <p>Numero de personas:</p>
+            <input type="number" id="personas">
+
+            <p>Paquete:</p>
+            <input type="text" id="paquete">
+
+            <input type="submit" value="Reservar" onclick="validarFormulario()">
+
+        </form>
+
+    </section>
+
+    <footer>
+        <p>TimeLife - Viajes en el tiempo</p>
+    </footer>
+
 </body>
 </html>
