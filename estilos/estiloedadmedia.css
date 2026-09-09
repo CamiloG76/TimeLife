@@ -1,0 +1,102 @@
+/* Reseteo básico universal */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Configuración general del cuerpo */
+body {
+  background-color: #121418; /* Fondo oscuro neutro */
+  color: #e1e3e6;            /* Texto claro legible */
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+/* Título principal de la cabecera */
+h1 {
+  background-color: #1a1d24;
+  color: #ffffff;
+  text-align: center;
+  padding: 1em 0 0.5em 0;
+}
+
+/* Barra de navegación */
+nav {
+  background-color: #1a1d24;
+  text-align: center;
+  border-bottom: 1px solid #2d323e;
+  padding-bottom: 0.5em;
+}
+
+nav a {
+  color: #a0a6b2;
+  display: inline-block;
+  padding: 0.8em 1.2em;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Pseudoclase hover para los enlaces */
+nav a:hover {
+  color: #ffffff;
+  background-color: #252a34;
+}
+
+/* Secciones de la página */
+section {
+  width: 80%;
+  margin: 1.5em auto;
+  padding: 1em;
+  background-color: #1a1d24;
+  border: 1px solid #2d323e;
+}
+
+section h2 {
+  color: #ffffff;
+  border-bottom: 1px solid #2d323e;
+  padding-bottom: 0.4em;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+
+/* Botones y enlaces especiales */
+section a {
+  display: inline-block;
+  margin-top: 1em;
+  padding: 0.8em 1.5em;
+  background-color: #3b4252;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  border: 1px solid #4c566a;
+}
+
+section a:hover {
+  background-color: #4c566a;
+}
+
+/* Limpieza de floats para evitar desajustes visuales */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Pie de página */
+footer {
+  background-color: #1a1d24;
+  color: #6c7280;
+  text-align: center;
+  padding: 1.2em 0;
+  margin-top: 2em;
+  border-top: 1px solid #2d323e;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
