@@ -87,7 +87,7 @@ section::after {
 /* Pie de página */
 footer {
   background-color: #1a1d24;
-  color: #6c7280;
+  color: #6f7582;
   text-align: center;
   padding: 1.2em 0;
   margin-top: 2em;
@@ -95,7 +95,7 @@ footer {
 }
 
 img {
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
   display: block;
   margin: 0 auto;
