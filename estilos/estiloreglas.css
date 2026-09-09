@@ -56,7 +56,7 @@ nav a {
 /* Estilo de los enlaces cuando se pasa el mouse encima */
 nav a:hover {
   /* Cambia el texto a blanco */
-  color: #ebe3e3;
+  color: #f3b7b7;
 
   /* Cambia el fondo del enlace */
   background-color: #252a34;
