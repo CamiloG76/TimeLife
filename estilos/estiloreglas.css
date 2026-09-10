@@ -1,12 +1,10 @@
-/* Quita los márgenes y espacios predeterminados */
+/* Quita los margenes y espacios predeterminados */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-
-/* Configuración general de la página */
 body {
     background-color: #121418;
     color: #e1e3e6;
@@ -14,40 +12,35 @@ body {
     font-size: 16px;
 }
 
-
-/* Parte superior de la página */
 header {
     background-color: #1a1d24;
     text-align: center;
-    padding-top: 2em;
+    padding-top: 32px;
 }
 
-
-/* Título TimeLife */
+/* Titulo TimeLife */
 h1 {
     color: #ffffff;
-    font-size: 2.2em;
-    margin-bottom: 1em;
+    font-size: 35.2px;
+    margin-bottom: 16px;
 }
 
 
-/* Menú de enlaces */
+/* Menu de enlaces */
 nav {
     background-color: #1a1d24;
     text-align: center;
-    padding-bottom: 0.8em;
+    padding-bottom: 12.8px;
 }
-
 
 /* Enlaces Inicio, Reglas y Reservar */
 nav a {
     color: #a0a6b2;
     display: inline-block;
-    padding: 0.7em 1.2em;
+    padding: 11.2px 19.2px;
     text-decoration: none;
     font-weight: bold;
 }
-
 
 /* Efecto cuando se pasa el mouse */
 nav a:hover {
@@ -55,63 +48,56 @@ nav a:hover {
     background-color: #252a34;
 }
 
-
 /* Contenedor de las reglas */
 section {
     width: 80%;
-    margin: 2em auto;
-    padding: 2em;
+    margin: 32px auto;
+    padding: 32px;
     background-color: #1a1d24;
     border: 1px solid #2d323e;
 }
 
-
-/* Título "Reglas para viajar en el tiempo" */
+/* Titulo "Reglas para viajar en el tiempo" */
 section h2 {
     color: #ffffff;
     text-align: center;
     border-bottom: 1px solid #2d323e;
-    padding-bottom: 0.5em;
-    margin-bottom: 1.5em;
+    padding-bottom: 8px;
+    margin-bottom: 24px;
 }
 
-
-/* Títulos de las diferentes reglas */
+/* Titulos de las diferentes reglas */
 section h3 {
     color: #ffffff;
-    margin-top: 1.5em;
-    margin-bottom: 0.8em;
+    margin-top: 24px;
+    margin-bottom: 12.8px;
 }
-
 
 /* Texto de las reglas */
 section p {
     color: #e1e3e6;
     line-height: 1.6;
-    margin-bottom: 1em;
+    margin-bottom: 16px;
 }
-
 
 /* Lista de reglas */
 section ul {
-    margin-left: 2em;
-    margin-bottom: 1.5em;
+    margin-left: 32px;
+    margin-bottom: 24px;
 }
-
 
 /* Elementos de la lista */
 section li {
-    margin-bottom: 0.7em;
+    margin-bottom: 11.2px;
     line-height: 1.5;
 }
 
-
-/* Pie de página */
+/* Pie de pagina */
 footer {
     background-color: #1a1d24;
     color: #6c7280;
     text-align: center;
-    padding: 1.2em 0;
-    margin-top: 2em;
+    padding: 19.2px 0;
+    margin-top: 32px;
     border-top: 1px solid #2d323e;
 }

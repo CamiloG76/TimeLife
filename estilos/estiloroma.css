@@ -1,37 +1,38 @@
+/* Reseteo basico universal */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Configuración general del cuerpo */
+/* Configuracion general del cuerpo */
 body {
-  background-color: #121418; /* Fondo oscuro neutro */
-  color: #e1e3e6;            /* Texto claro legible */
+  background-color: #121418;
+  color: #e1e3e6;
   font-family: Arial, sans-serif;
   font-size: 16px;
 }
 
-/* Título principal de la cabecera */
+/* Titulo principal de la cabecera */
 h1 {
   background-color: #1a1d24;
   color: #ffffff;
   text-align: center;
-  padding: 1em 0 0.5em 0;
+  padding: 16px 0 8px 0;
 }
 
-/* Barra de navegación */
+/* Barra de navegacion */
 nav {
   background-color: #1a1d24;
   text-align: center;
   border-bottom: 1px solid #2d323e;
-  padding-bottom: 0.5em;
+  padding-bottom: 8px;
 }
 
 nav a {
   color: #a0a6b2;
   display: inline-block;
-  padding: 0.8em 1.2em;
+  padding: 12.8px 19.2px;
   text-decoration: none;
   font-weight: bold;
 }
@@ -42,11 +43,11 @@ nav a:hover {
   background-color: #252a34;
 }
 
-/* Secciones de la página */
+/* Secciones de la pagina */
 section {
   width: 80%;
-  margin: 1.5em auto;
-  padding: 1em;
+  margin: 24px auto;
+  padding: 16px;
   background-color: #1a1d24;
   border: 1px solid #2d323e;
 }
@@ -54,8 +55,8 @@ section {
 section h2 {
   color: #ffffff;
   border-bottom: 1px solid #2d323e;
-  padding-bottom: 0.4em;
-  margin-bottom: 1em;
+  padding-bottom: 6.4px;
+  margin-bottom: 16px;
   text-align: center;
 }
 
@@ -63,8 +64,8 @@ section h2 {
 /* Botones y enlaces especiales */
 section a {
   display: inline-block;
-  margin-top: 1em;
-  padding: 0.8em 1.5em;
+  margin-top: 16px;
+  padding: 12.8px 24px;
   background-color: #3b4252;
   color: #ffffff;
   text-decoration: none;
@@ -83,13 +84,13 @@ section::after {
   clear: both;
 }
 
-/* Pie de página */
+/* Pie de pagina */
 footer {
   background-color: #1a1d24;
   color: #6f7582;
   text-align: center;
-  padding: 1.2em 0;
-  margin-top: 2em;
+  padding: 19.2px 0;
+  margin-top: 32px;
   border-top: 1px solid #2d323e;
 }
 

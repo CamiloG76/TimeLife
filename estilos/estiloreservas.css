@@ -15,20 +15,20 @@ h1 {
   background-color: #1a1d24;
   color: #ffffff;
   text-align: center;
-  padding: 1em 0 0.5em 0;
+  padding: 16px 0 8px 0;
 }
 
 nav {
   background-color: #1a1d24;
   text-align: center;
   border-bottom: 1px solid #2d323e;
-  padding-bottom: 0.5em;
+  padding-bottom: 8px;
 }
 
 nav a {
   color: #a0a6b2;
   display: inline-block;
-  padding: 0.8em 1.2em;
+  padding: 12.8px 19.2px;
   text-decoration: none;
   font-weight: bold;
 }
@@ -40,8 +40,8 @@ nav a:hover {
 
 section {
   width: 80%;
-  margin: 1.5em auto;
-  padding: 2em;
+  margin: 24px auto;
+  padding: 32px;
   background-color: #1a1d24;
   border: 1px solid #2d323e;
 }
@@ -49,8 +49,8 @@ section {
 section h2 {
   color: #ffffff;
   border-bottom: 1px solid #2d323e;
-  padding-bottom: 0.4em;
-  margin-bottom: 1em;
+  padding-bottom: 6.4px;
+  margin-bottom: 16px;
   text-align: center;
 }
 
@@ -60,13 +60,13 @@ form {
 }
 
 form p {
-  margin-top: 1em;
-  margin-bottom: 0.5em;
+  margin-top: 16px;
+  margin-bottom: 8px;
 }
 
 form input {
   width: 100%;
-  padding: 0.8em;
+  padding: 12.8px;
   background-color: #121418;
   color: #ffffff;
   border: 1px solid #2d323e;
@@ -74,8 +74,8 @@ form input {
 
 form input[type="submit"] {
   width: auto;
-  margin-top: 1.5em;
-  padding: 0.8em 1.5em;
+  margin-top: 24px;
+  padding: 12.8px 24px;
   background-color: #3b4252;
   color: #ffffff;
   font-weight: bold;
@@ -90,7 +90,7 @@ footer {
   background-color: #1a1d24;
   color: #6c7280;
   text-align: center;
-  padding: 1.2em 0;
-  margin-top: 2em;
+  padding: 19.2px 0;
+  margin-top: 32px;
   border-top: 1px solid #2d323e;
 }

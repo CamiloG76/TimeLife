@@ -1,4 +1,3 @@
-
 * {
   margin: 0;
   padding: 0;
@@ -7,13 +6,13 @@
 
 /* Configuración general del cuerpo */
 body {
-  background-color: #121418; /* Fondo oscuro neutro */
-  color: #e1e3e6;            /* Texto claro legible */
+  background-color: #121418; 
+  color: #e1e3e6;            
   font-family: Arial, sans-serif;
   font-size: 16px;
 }
 
-/* Título principal de la cabecera */
+
 h1 {
   background-color: #1a1d24;
   color: #ffffff;
@@ -37,7 +36,6 @@ nav a {
   font-weight: bold;
 }
 
-/* Pseudoclase hover para los enlaces */
 nav a:hover {
   color: #ffffff;
   background-color: #252a34;
@@ -60,8 +58,7 @@ section h2 {
   text-align: center;
 }
 
-
-/* Botones y enlaces especiales */
+/* Botones y enlaces */
 section a {
   display: inline-block;
   margin-top: 1em;
